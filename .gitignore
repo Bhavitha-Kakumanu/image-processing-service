@@ -1,0 +1,29 @@
+# Maven build output
+target/
+
+# Environment and secrets
+.env
+*.env
+application-local.properties
+
+# Uploaded images (don't commit user data)
+uploads/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+build/
+npm-debug.log
+
+# Logs
+*.log
