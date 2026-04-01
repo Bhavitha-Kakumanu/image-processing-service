@@ -27,3 +27,6 @@ npm-debug.log
 
 # Logs
 *.log
+
+# Never commit application properties (contains secrets)
+**/src/main/resources/application.properties
